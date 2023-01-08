@@ -28,19 +28,25 @@ const Header = () => {
                     <p>{countItem} item</p>
                 </div>
             </div>
-            <div className={classes.nav}>
-                <div style={{height: '200px', width: '200px', backgroundColor: "#fff", color: "#000",display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Image</div>
-                {
-                    navigation.map((item) => {
-                        return (
-                            <div key={item.name.toLowerCase()}>
-                                <ul>
-                                    <a className={classes.navText} href={item.href}>{item.name}</a>
-                                </ul>
-                            </div>
-                        )
-                    })
-                }
+            <div>
+                <div className={classes.nav}>
+                    <div style={{height: '200px', width: '200px', backgroundColor: "#fff", color: "#000",display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Image</div>
+                    {
+                        navigation.map((item) => {
+                            return (
+                                <div key={item.name.toLowerCase()}>
+                                    <ul>
+                                        <a className={classes.navText} href={item.href}>{item.name}</a>
+                                    </ul>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+                <div className={classes.headerTitle}>
+                    <h4>A very warm welcome to our</h4>
+                    <h2>BEER SHOP</h2>
+                </div>
             </div>
         </div>
     );
