@@ -3,18 +3,33 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    height: 300px;
+    height: 152px;
     width: 100%;
     background-color: #000;
-    color: #fff;
-    padding-left: 220px;
+    position: relative;
 }
 
-.navText {
-    font-size: 20px;
-    text-decoration: none;
-    color: #fff;
-    padding: 0 28px;
+.headerBurger {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: 16px;
+    bottom: 110px;
+    cursor: pointer;
+}
+
+.headerImage {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarHeader {
+    display: none;
 }
 
 .navText:hover {
@@ -23,11 +38,9 @@
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    height: 80px;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    height: 30px;
     background-color: #000;
     border: 1px solid #444;
     color: #fff;
@@ -35,12 +48,35 @@
 
 .navSocialMedia {
     display: flex;
-    flex-direction: row;
-
+    justify-content: flex-end;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-left: 40px;
+    border-right: 1px solid #444;
 }
 
 .navSocialMedia p {
-    padding: 12px;
+    padding: 0 10px;
+}
+
+.basketBeer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 1px solid #444;
+}
+
+.basketBeer p {
+    display: flex;
+    white-space: nowrap;
+    padding: 0 16px;
+}
+
+.line {
+    height: 100%;
+    width: 1px;
+    background-color: #444;
 }
 
 .headerTitle {
@@ -50,17 +86,18 @@
     flex-direction: column;
     background-color: #000;
     color: #fff;
+    padding-bottom: 30px;
 }
 
 .headerTitle h2 {
-    font-size: 50px;
+    font-size: 24px;
     font-weight: bold;
-    padding: 20px;
-    letter-spacing: 14px;
+    padding: 12px;
+    letter-spacing: 12px;
 }
 
 .headerTitle h4 {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: lighter;
     color: #675812;
 }
@@ -70,5 +107,67 @@
 }
 
 @media (min-width: 1024px) {
+    .navbar {
+        height: 60px;
+    }
 
+    .navSocialMedia {
+        padding-left: 120px;
+    }
+
+    .navSocialMedia p {
+        padding: 0 32px;
+    }
+
+    .basketBeer p {
+        padding: 0 32px;
+    }
+
+    .headerTitle {
+        padding-bottom: 50px;
+    }
+
+    .headerTitle h4 {
+        font-size: 30px;
+    }
+
+    .headerTitle h2 {
+        font-size: 60px;
+        letter-spacing: 24px;
+    }
+
+    .navBarHeader {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 96%;
+        height: 30%;
+    }
+
+    .headerBurger {
+        display: none;
+    }
+
+    .headerImage {
+        height: 400px;
+        width: 250px;
+        justify-content: flex-start;
+    }
+
+    .headerImage img {
+        height: 200px;
+        width: 300px;
+        padding-left: 50px;
+    }
+
+    .navText {
+        font-size: 22px;
+        text-decoration: none;
+        color: #fff;
+        padding-left: 40px;
+    }
+
+    .nav {
+        height: 280px;
+    }
 }

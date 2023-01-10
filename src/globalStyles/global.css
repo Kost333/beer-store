@@ -3,7 +3,7 @@
 }
 
 .text-yellow {
-    color: #655808;
+    color: #ccb27f;
 }
 
 .text-white {
@@ -11,5 +11,40 @@
 }
 
 .text-grey {
-    color: #565353;
+    color: #7c7c7c;
+}
+
+.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+
+.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+button.primary {
+    color: #fff;
+    background-color: #ccb27f;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+button.outlet {
+    color: #ccb27f;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+button.outlet.active {
+    border-color: #ccb27f;
 }

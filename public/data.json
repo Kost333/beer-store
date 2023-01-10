@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "SUGAR SKULL",
+        "size": 330,
+        "price": 4.75,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_1.png"
+    },
+    {
+        "id": 2,
+        "name": "PALE ALE",
+        "size": 330,
+        "price": 4.75,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_2.png"
+    },
+    {
+        "id": 3,
+        "name": "GOLDEN ALE",
+        "size": 330,
+        "price": 5,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_3.png"
+    },
+    {
+        "id": 4,
+        "name": "IPA",
+        "size": 330,
+        "price": 5,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_4.png"
+    },
+    {
+        "id": 5,
+        "name": "SUGAR SKULL",
+        "size": 330,
+        "price": 4.75,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_1.png"
+    },
+    {
+        "id": 6,
+        "name": "PALE ALE",
+        "size": 330,
+        "price": 4.75,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_2.png"
+    },
+    {
+        "id": 7,
+        "name": "GOLDEN ALE",
+        "size": 330,
+        "price": 5,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_3.png"
+    },
+    {
+        "id": 8,
+        "name": "IPA",
+        "size": 330,
+        "price": 5,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_4.png"
+    },
+    {
+        "id": 9,
+        "name": "SUGAR SKULL",
+        "size": 330,
+        "price": 4.75,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_1.png"
+    },
+    {
+        "id": 10,
+        "name": "PALE ALE",
+        "size": 330,
+        "price": 4.75,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_2.png"
+    },
+    {
+        "id": 11,
+        "name": "GOLDEN ALE",
+        "size": 330,
+        "price": 5,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_3.png"
+    },
+    {
+        "id": 12,
+        "name": "IPA",
+        "size": 330,
+        "price": 5,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_4.png"
+    },
+    {
+        "id": 13,
+        "name": "SUGAR SKULL",
+        "size": 330,
+        "price": 4.75,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_1.png"
+    },
+    {
+        "id": 14,
+        "name": "PALE ALE",
+        "size": 330,
+        "price": 4.75,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_2.png"
+    },
+    {
+        "id": 15,
+        "name": "GOLDEN ALE",
+        "size": 330,
+        "price": 5,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_3.png"
+    },
+    {
+        "id": 16,
+        "name": "IPA",
+        "size": 330,
+        "price": 5,
+        "percentage": 4.5,
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laboriosam architecto maxime, accusamus labore nemo nihil ipsa consequatur asperiores culpa quisquam, similique blanditiis corrupti voluptatum tenetur obcaecati velit odit atque.",
+        "image": "beer_4.png"
+    }
+]

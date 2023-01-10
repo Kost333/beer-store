@@ -1,7 +1,7 @@
 import Home from "./home/Home";
-import Shop from "./store/Shop";
 
 export const routes = [
-    {component: <Home/>, path: "/"},
-    {component: <Shop/>, path: "/store"}
-]
+  { component: <Home />, path: "/" },
+  { component: <Home />, path: "/:page" },
+  { component: <Home />, path: "/beer-preview/:id" },
+];
