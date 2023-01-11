@@ -52,8 +52,15 @@
   color: #ccb27f;
 }
 
-.beerPreviewPriceBtn {
+.beerPreviewActionsSection {
+  display: flex;
+  align-items: center;
   margin-top: 32px;
+}
+
+.beerPreviewExistingItemsCount {
+  margin-right: 12px;
+  color: #ccb27f;
 }
 
 @media (min-width: 768px) {
